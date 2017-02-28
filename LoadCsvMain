@@ -1,0 +1,6 @@
+from pandas import read_csv
+
+out = read_csv(your_file, sep=';', skiprows=[0], header=None)
+
+""" Обращаться к полученным данным через индексацию:
+item_str = out[i][j]"""
